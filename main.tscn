@@ -1,0 +1,69 @@
+[gd_scene load_steps=3 format=3 uid="uid://bklfy8mfkf6k8"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_gr1lm"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_07slq"]
+
+[node name="main" type="Node3D"]
+
+[node name="GreyboxMap" type="Node3D" parent="."]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="GreyboxMap"]
+transform = Transform3D(4.49918, 0, 0, 0, 0.379877, 0, 0, 0, 6.24346, 10.41, 2.61494, 5.67433)
+mesh = SubResource("BoxMesh_gr1lm")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="GreyboxMap"]
+transform = Transform3D(-0.0671909, 0, 16.8612, 0, 0.379877, 0, -3.76279, 0, -0.301085, 4.01204, 2.61494, 0.945201)
+mesh = SubResource("BoxMesh_gr1lm")
+
+[node name="MeshInstance3D8" type="MeshInstance3D" parent="GreyboxMap"]
+transform = Transform3D(-0.0671909, 0, 8.04199, 0, 0.379877, 0, -3.76279, 0, -0.143603, -8.32085, 2.61494, 1.16542)
+mesh = SubResource("BoxMesh_gr1lm")
+
+[node name="MeshInstance3D12" type="MeshInstance3D" parent="GreyboxMap"]
+transform = Transform3D(-0.0675147, 0, 5.87175, 0, 0.379877, 0, -3.78093, 0, -0.10485, -21.3705, 8.19596, 1.16542)
+mesh = SubResource("BoxMesh_gr1lm")
+
+[node name="MeshInstance3D13" type="MeshInstance3D" parent="GreyboxMap"]
+transform = Transform3D(-0.0654918, 0, 19.7933, 0, 0.379877, 0, -3.66764, 0, -0.353443, -39.312, 8.19596, 1.16542)
+mesh = SubResource("BoxMesh_gr1lm")
+
+[node name="MeshInstance3D15" type="MeshInstance3D" parent="GreyboxMap"]
+transform = Transform3D(-0.0654918, 0, 19.7933, 0, 0.379877, 0, -3.66764, 0, -0.353443, -66.4686, 2.60857, 1.16542)
+mesh = SubResource("BoxMesh_gr1lm")
+
+[node name="MeshInstance3D10" type="MeshInstance3D" parent="GreyboxMap"]
+transform = Transform3D(-0.0552032, 0.216561, 6.60719, 0.0383044, 0.312102, -4.5846, -3.76279, -3.13012e-10, -0.143603, -15.228, 5.98676, 1.30625)
+mesh = SubResource("BoxMesh_gr1lm")
+
+[node name="MeshInstance3D14" type="MeshInstance3D" parent="GreyboxMap"]
+transform = Transform3D(-0.172692, -0.18399, 8.0616, -0.0387095, 0.255851, 5.80739, -3.70811, 0.00589785, -0.436066, -53.1614, 5.28717, 1.30625)
+mesh = SubResource("BoxMesh_gr1lm")
+
+[node name="MeshInstance3D3" type="MeshInstance3D" parent="GreyboxMap"]
+transform = Transform3D(0.7, 0, 0, 0, 4.31422, 0, 0, 0, 10.5462, 12.3962, 4.88395, 3.94703)
+mesh = SubResource("BoxMesh_07slq")
+
+[node name="MeshInstance3D7" type="MeshInstance3D" parent="GreyboxMap"]
+transform = Transform3D(0.7, 0, 0, 0, 4.31422, 0, 0, 0, 4.48452, -4.69782, 4.88395, 1.2692)
+mesh = SubResource("BoxMesh_07slq")
+
+[node name="MeshInstance3D9" type="MeshInstance3D" parent="GreyboxMap"]
+transform = Transform3D(1.20816, 0, 0, 0, 1.23029, 0, 0, 0, 3.8054, -11.6544, 3.32876, 1.2692)
+mesh = SubResource("BoxMesh_07slq")
+
+[node name="MeshInstance3D5" type="MeshInstance3D" parent="GreyboxMap"]
+transform = Transform3D(0.7, 0, 0, 0, 4.31422, 0, 0, 0, 6.61583, 7.79465, 4.88395, 6.05383)
+mesh = SubResource("BoxMesh_07slq")
+
+[node name="MeshInstance3D4" type="MeshInstance3D" parent="GreyboxMap"]
+transform = Transform3D(-3.0598e-08, 0, 4.93437, 0, 4.31422, 0, -0.7, 0, -2.15688e-07, 10.3227, 4.88395, 9.01686)
+mesh = SubResource("BoxMesh_07slq")
+
+[node name="MeshInstance3D6" type="MeshInstance3D" parent="GreyboxMap"]
+transform = Transform3D(-3.0598e-08, 0, 12.2162, 0, 4.31422, 0, -0.7, 0, -5.33989e-07, 1.75957, 4.88395, 3.08134)
+mesh = SubResource("BoxMesh_07slq")
+
+[node name="MeshInstance3D11" type="MeshInstance3D" parent="GreyboxMap"]
+transform = Transform3D(-3.0598e-08, 0, 151.63, 0, 19.6699, 0, -0.7, 0, -6.62797e-06, -80.2082, 8.91665, 3.08134)
+mesh = SubResource("BoxMesh_07slq")
